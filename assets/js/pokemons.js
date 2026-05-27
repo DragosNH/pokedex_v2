@@ -11,4 +11,28 @@ export const pokedex = [
         description: "For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.",
         image: "assets/images/pokemons/1.png"
     },
+    {
+        id: 2,
+        name: "Ivysaur",
+        type1: "Grass",
+        type2: "Poisson",
+        weackness1: "Fire",
+        weackness2: "Flying",
+        weackness3: "Ice",
+        weackness4: "Psychic",
+        description: "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.",
+        image: "assets/images/pokemons/2.png"
+    },
+    {
+        id: 3,
+        name: "Venusaur",
+        type1: "Grass",
+        type2: "Poisson",
+        weackness1: "Fire",
+        weackness2: "Flying",
+        weackness3: "Ice",
+        weackness4: "Psychic",
+        description: "While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.",
+        image: "assets/images/pokemons/3.png"
+    },
 ]
