@@ -1,13 +1,21 @@
+:root{
+    --dark-blue: #3c5aa6;
+    --yellow-shadow: #c7a008;
+    --light-blue: #2a75bb;
+    --yellow: #ffcb05;
+}
+
 
 body{
     margin: 0;
+    background-image: url(../images/background.png);
 }
 
 
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: color-mix(in srgb, var(--yellow) 50%, transparent);
   display: flex;
   align-items: center;
   justify-content: space-between;
