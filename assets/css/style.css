@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-blue: #3c5aa6;
     --yellow-shadow: #c7a008;
     --light-blue: #2a75bb;
@@ -6,39 +6,63 @@
 }
 
 
-body{
+body {
     margin: 0;
     background-image: url(../images/background.png);
+    height: 100vh;
+    overflow: hidden;
 }
 
 
 /* Add a black background color to the top navigation bar */
 .topnav {
-  overflow: hidden;
-  background-color: color-mix(in srgb, var(--yellow) 50%, transparent);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+    overflow: hidden;
+    background-color: color-mix(in srgb, var(--yellow) 50%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.topnav img{
+.topnav img {
     width: 200px;
     margin-left: 25px;
 }
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 25px;
-  font-size: 17px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 25px;
+    font-size: 17px;
 }
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 97.4vw;
+    bottom: 0;
+    background-color: color-mix(in srgb, var(--light-blue) 70%, transparent);
+    padding: 5px 25px;
+    color: var(--yellow);
+}
+
+footer img {
+    width: 150px;
+}
+
+footer a{
+    color: var(--yellow);
+}
+
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
-  }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
 }
