@@ -3,6 +3,7 @@
     --yellow-shadow: #c7a008;
     --light-blue: #2a75bb;
     --yellow: #ffcb05;
+    --white: #f5f5f5;
 }
 
 
@@ -11,6 +12,18 @@ body {
     background-image: url(../images/background.png);
     height: 100vh;
     overflow: hidden;
+    font-size: 1.4em;
+}
+
+h2{
+    color: var(--yellow);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -38,17 +51,53 @@ body {
     font-size: 17px;
 }
 
+/* Created elements */
+.container{
+    background-color: color-mix(in srgb, var(--white) 35%, transparent);
+    width: 30vw;
+    margin-top: 8%;
+}
+
+.pokeImg{
+    width: 250px;
+}
+
+
+.firstLine{
+    display: flex;
+}
+
+.types{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 5px;
+}
+
+.typeElements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.type{
+    margin: 5px;
+}
+
+
 
 footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    width: 97.4vw;
+    width: 97.5%;
     bottom: 0;
     background-color: color-mix(in srgb, var(--light-blue) 70%, transparent);
     padding: 5px 25px;
     color: var(--yellow);
+    font-size: 0.5em;
 }
 
 footer img {
