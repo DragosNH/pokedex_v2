@@ -25,7 +25,13 @@ form.addEventListener("submit", (e) => {
                         <p class="type">${pokedex.type2}</p>
                     </div>
                 </div>
-                <img class="pokeImg" src="${pokeImg}" alt="${pokeName}">
+                <div class="firstImgContainer">
+                    <div class="secondImgContainer">
+                        <div class="thirdImgContainer">
+                            <img class="pokeImg" src="${pokeImg}" alt="${pokeName}">
+                        </div>
+                    </div>
+                </div>
                 <div class="types">
                     <h3>Weakness</h3>
                     <div class="typeElements">

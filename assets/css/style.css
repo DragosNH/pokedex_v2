@@ -54,17 +54,15 @@ main{
 /* Created elements */
 .container{
     background-color: color-mix(in srgb, var(--white) 35%, transparent);
-    width: 30vw;
-    margin-top: 8%;
-}
-
-.pokeImg{
-    width: 250px;
+    width: 40vw;
+    margin-top: 5%;
 }
 
 
 .firstLine{
     display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .types{
@@ -86,6 +84,57 @@ main{
 }
 
 
+/* Image containers */
+
+.firstImgContainer{
+    background-color: color-mix(in srgb, var(--white) 45%, transparent);
+    /* padding: 35px; */
+    border-radius: 50%;
+}
+
+@keyframes rotateCW {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes rotateCCW {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+.secondImgContainer {
+    border: 10px solid var(--white);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px var(--white);
+    transform-origin: center center;
+
+    animation: rotateCW 6s ease-in-out infinite;
+}
+
+
+.thirdImgContainer {
+    border: 10px solid var(--white);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 0px 15px var(--white);
+    transform-origin: center center;
+    animation: rotateCCW 6s ease-in-out infinite;
+}
+
+
+.pokeImg{
+    width: 250px;
+    display: block;
+    transform: none;
+}
+
+
+
 
 footer {
     display: flex;
@@ -97,7 +146,7 @@ footer {
     background-color: color-mix(in srgb, var(--light-blue) 70%, transparent);
     padding: 5px 25px;
     color: var(--yellow);
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 
 footer img {
