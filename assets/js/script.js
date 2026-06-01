@@ -41,7 +41,7 @@ form.addEventListener("submit", (e) => {
             case "Bug": return "#A8B820";
             case "Ghost": return "#705898";
             case "Steel": return "#B8B8D0";
-            default: return "#777";
+            default: return "none";
         }
     }
 
@@ -52,10 +52,11 @@ form.addEventListener("submit", (e) => {
     let w2 = getTypeColor(pokedex.weackness2);
     let w3 = getTypeColor(pokedex.weackness3);
     let w4 = getTypeColor(pokedex.weackness4);
+    let w5 = getTypeColor(pokedex.weackness5);
 
     let container = `
         <div class="container">
-            <h2>${pokeName}</h2>
+            <h2 style="color:${type1Color}">${pokeName}</h2>
             <div class="firstLine">
                 <div class="types">
                     <h3>Type</h3>
@@ -78,6 +79,7 @@ form.addEventListener("submit", (e) => {
                         <p class="type" style="background:${w2}">${pokedex.weackness2}</p>
                         <p class="type" style="background:${w3}">${pokedex.weackness3}</p>
                         <p class="type" style="background:${w4}">${pokedex.weackness4}</p>
+                        <p class="type" style="background:${w5}">${pokedex.weackness5}</p>
                     </div>
                 </div>    
             </div>
