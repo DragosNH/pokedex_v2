@@ -13,13 +13,13 @@ form.addEventListener("submit", (e) => {
     let val = Number(search.value);
     let pokedex = pd.find(pokemon => pokemon.id === val);
 
-    let pokeName = pokedex.name;
-    let pokeImg = pokedex.image;
-
     if (!pokedex) {
         console.log("Pokémon not found");
         return;
     }
+
+    let pokeName = pokedex.name;
+    let pokeImg = pokedex.image;
 
     function getTypeColor(type) {
         switch (type) {
@@ -56,7 +56,11 @@ form.addEventListener("submit", (e) => {
 
     let container = `
         <div class="container">
-            <h2 style="color:${type1Color}">${pokeName}</h2>
+            <div class="topElements">
+                <button class="leftBtn btn">←</button>
+                <h2 style="color:${type1Color}">${pokeName}</h2>
+                <button class="rightBtn btn">→</button>
+            </div>
             <div class="firstLine">
                 <div class="types">
                     <h3>Type</h3>
@@ -89,12 +93,29 @@ form.addEventListener("submit", (e) => {
         </div>
     `;
 
-
-
+    main.innerHTML = container;
 
     search.value = "";
 
     console.log(pokeName);
     main.innerHTML = "";
     main.insertAdjacentHTML("beforeend", container);
+
+    let currentIndex = pd.findIndex(p => p.id === val);
+    const leftBtn = document.querySelector(".leftBtn");
+    const rightBtn = document.querySelector(".rightBtn");
+    const updateSlide = (index) => {
+        if (index >= pd.length) currentIndex = 0;
+        else if (index < 0) currentIndex = pd.length - 1;
+        else currentIndex = index;
+
+        const newPoke = pd[currentIndex];
+        search.value = newPoke.id;
+        form.dispatchEvent(new Event("submit"));
+    };
+
+    leftBtn.addEventListener('click', () => updateSlide(currentIndex - 1));
+    rightBtn.addEventListener('click', () => updateSlide(currentIndex + 1));
+
+
 });

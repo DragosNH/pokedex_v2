@@ -27,6 +27,22 @@ main{
 }
 
 
+.topElements{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 1em;
+    font-weight: bold;
+    background: none;
+    border: 2px solid var(--white);
+    border-radius: 15px;
+    color: var(--white);
+}
+
+
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
