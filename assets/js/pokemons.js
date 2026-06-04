@@ -259,4 +259,30 @@ export const pokedex = [
         description: "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
         image: "assets/images/pokemons/20.png"
     },
+    {
+        id: 21,
+        name: "Spearow",
+        type1: "Normal",
+        type2: "Flying",
+        weackness1: "Electric",
+        weackness2: "Rock",
+        weackness3: "Ice",
+        weackness4: "",
+        weackness5: "",
+        description: "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
+        image: "assets/images/pokemons/21.png"
+    },
+    {
+        id: 22,
+        name: "Fearow",
+        type1: "Normal",
+        type2: "Flying",
+        weackness1: "Electric",
+        weackness2: "Rock",
+        weackness3: "Ice",
+        weackness4: "",
+        weackness5: "",
+        description: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
+        image: "assets/images/pokemons/22.png"
+    },
 ]
