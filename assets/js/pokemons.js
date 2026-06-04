@@ -285,4 +285,56 @@ export const pokedex = [
         description: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
         image: "assets/images/pokemons/22.png"
     },
+    {
+        id: 23,
+        name: "Ekans",
+        type1: "Poison",
+        type2: "",
+        weackness1: "Ground",
+        weackness2: "Psychic",
+        weackness3: "",
+        weackness4: "",
+        weackness5: "",
+        description: "It can freely detach its jaw to swallow large prey whole. It can become too heavy to move, however.",
+        image: "assets/images/pokemons/23.png"
+    },
+    {
+        id: 24,
+        name: "Arbok",
+        type1: "Poison",
+        type2: "",
+        weackness1: "Ground",
+        weackness2: "Psychic",
+        weackness3: "",
+        weackness4: "",
+        weackness5: "",
+        description: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+        image: "assets/images/pokemons/24.png"
+    },
+    {
+        id: 25,
+        name: "Pikachu",
+        type1: "Electric",
+        type2: "",
+        weackness1: "Ground",
+        weackness2: "",
+        weackness3: "",
+        weackness4: "",
+        weackness5: "",
+        description: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+        image: "assets/images/pokemons/25.png"
+    },
+    {
+        id: 26,
+        name: "Raichu",
+        type1: "Electric",
+        type2: "",
+        weackness1: "Ground",
+        weackness2: "",
+        weackness3: "",
+        weackness4: "",
+        weackness5: "",
+        description: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+        image: "assets/images/pokemons/26.png"
+    },
 ]

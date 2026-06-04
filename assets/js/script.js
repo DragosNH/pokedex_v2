@@ -58,7 +58,7 @@ form.addEventListener("submit", (e) => {
         <div class="container">
             <div class="topElements">
                 <button class="leftBtn btn">←</button>
-                <h2 style="color:${type1Color}">${pokeName}</h2>
+                <h2>${pokeName}</h2>
                 <button class="rightBtn btn">→</button>
             </div>
             <div class="firstLine">
