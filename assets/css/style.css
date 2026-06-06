@@ -16,7 +16,7 @@ body {
 }
 
 h2{
-    color: var(--yellow);
+    color: var(--white);
     text-align: center;
 }
 
@@ -30,16 +30,17 @@ main{
 .topElements{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .btn{
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
-    background: none;
+    background: var(--dark-blue);
     border: 2px solid var(--white);
-    border-radius: 15px;
+    border-radius: 50px;
     color: var(--white);
+    padding: 10px 20px;
 }
 
 
@@ -69,7 +70,7 @@ main{
 
 /* Created elements */
 .container{
-    background-color: color-mix(in srgb, var(--white) 35%, transparent);
+    /* background-color: color-mix(in srgb, var(--white) 35%, transparent); */
     width: 40vw;
     margin-top: 5%;
 }
@@ -78,7 +79,7 @@ main{
 .firstLine{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .types{
@@ -89,19 +90,58 @@ main{
     margin: 5px;
 }
 
+h3{
+    color: var(--white);
+}
+
 .typeElements{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+.pokeType{
+    width: 200px;
+    padding: 15px;
+    background-color: color-mix(in srgb, var(--dark-blue) 85%, transparent);
+    border: 2px double var(--yellow);
+    border-radius: 0 25px 25px 0;
+}
+
+.pokeImgCont{
+    width: 300px;
+    margin: 15px;
+}
+
+.pokeWeakness{
+    width: 200px;
+    padding: 15px;
+    background-color: color-mix(in srgb, var(--dark-blue) 85%, transparent);
+    border: 2px double var(--yellow);
+    border-radius: 25px 0 0 25px;
+}
+
+
 .type{
     margin: 5px;
     color: var(--white);
     padding: 3px 10px;
     border-radius: 10px;
+    box-shadow: 0 0 5px var(--white);
 }
 
+.secondLine{
+    width: 550px;
+    background-color: color-mix(in srgb, var(--dark-blue) 95%, transparent);
+    border: 2px double var(--yellow);
+    border-radius: 0 25px 25px 0;
+}
+
+.secondLine p {
+    color: var(--white);
+}
+
+.hidden{display: none;}
 
 /* Image containers */
 

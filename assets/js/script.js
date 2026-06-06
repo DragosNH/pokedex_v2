@@ -53,39 +53,57 @@ form.addEventListener("submit", (e) => {
     let w3 = getTypeColor(pokedex.weackness3);
     let w4 = getTypeColor(pokedex.weackness4);
     let w5 = getTypeColor(pokedex.weackness5);
+    let w6 = getTypeColor(pokedex.weackness6);
+
+    const hideIfEmpty = value => value === "" ? "hidden" : "";
+
+
+    let t2Class = hideIfEmpty(pokedex.type2);
+    let w2Class = hideIfEmpty(pokedex.weackness2);
+    let w3Class = hideIfEmpty(pokedex.weackness3);
+    let w4Class = hideIfEmpty(pokedex.weackness4);
+    let w5Class = hideIfEmpty(pokedex.weackness5);
+    let w6Class = hideIfEmpty(pokedex.weackness6);
 
     let container = `
         <div class="container">
             <div class="topElements">
-                <button class="leftBtn btn">←</button>
+                <button class="leftBtn btn"><</button>
                 <h2>${pokeName}</h2>
-                <button class="rightBtn btn">→</button>
+                <button class="rightBtn btn">></button>
             </div>
             <div class="firstLine">
-                <div class="types">
-                    <h3>Type</h3>
-                    <div class="typeElements">
-                        <p class="type" style="background:${type1Color}">${pokedex.type1}</p>
-                        <p class="type" style="background:${type2Color}">${pokedex.type2}</p>
-                    </div>
-                </div>
-                <div class="firstImgContainer">
-                    <div class="secondImgContainer">
-                        <div class="thirdImgContainer">
-                            <img class="pokeImg" src="${pokeImg}" alt="${pokeName}">
+                <div class="pokeType">
+                    <div class="types">
+                        <h3>Type</h3>
+                        <div class="typeElements">
+                            <p class="type" style="background:${type1Color}">${pokedex.type1}</p>
+                            <p class="type ${t2Class}" style="background:${type2Color}">${pokedex.type2}</p>
                         </div>
                     </div>
                 </div>
-                <div class="types">
-                    <h3>Weakness</h3>
-                    <div class="typeElements">
-                        <p class="type" style="background:${w1}">${pokedex.weackness1}</p>
-                        <p class="type" style="background:${w2}">${pokedex.weackness2}</p>
-                        <p class="type" style="background:${w3}">${pokedex.weackness3}</p>
-                        <p class="type" style="background:${w4}">${pokedex.weackness4}</p>
-                        <p class="type" style="background:${w5}">${pokedex.weackness5}</p>
+                <div class="pokeImgCont">
+                    <div class="firstImgContainer">
+                        <div class="secondImgContainer">
+                            <div class="thirdImgContainer">
+                                <img class="pokeImg" src="${pokeImg}" alt="${pokeName}">
+                            </div>
+                        </div>
                     </div>
-                </div>    
+                </div>
+                <div class="pokeWeakness">
+                    <div class="types">
+                        <h3>Weakness</h3>
+                        <div class="typeElements">
+                            <p class="type" style="background:${w1}">${pokedex.weackness1}</p>
+                            <p class="type ${w2Class}" style="background:${w2}">${pokedex.weackness2}</p>
+                            <p class="type ${w3Class}" style="background:${w3}">${pokedex.weackness3}</p>
+                            <p class="type ${w4Class}" style="background:${w4}">${pokedex.weackness4}</p>
+                            <p class="type ${w5Class}" style="background:${w5}">${pokedex.weackness5}</p>
+                            <p class="type ${w6Class}" style="background:${w6}">${pokedex.weackness6}</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="secondLine">
                 <p class="descriptionTxt">${pokedex.description}</p>

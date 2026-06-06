@@ -9,6 +9,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.",
         image: "assets/images/pokemons/1.png"
     },
@@ -22,6 +23,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.",
         image: "assets/images/pokemons/2.png"
     },
@@ -35,6 +37,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.",
         image: "assets/images/pokemons/3.png"
     },
@@ -48,6 +51,7 @@ export const pokedex = [
         weackness3: "Ground",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.",
         image: "assets/images/pokemons/4.png"
     },
@@ -61,6 +65,7 @@ export const pokedex = [
         weackness3: "Ground",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.",
         image: "assets/images/pokemons/5.png"
     },
@@ -74,6 +79,7 @@ export const pokedex = [
         weackness3: "Rock",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
         image: "assets/images/pokemons/6.png"
     },
@@ -87,6 +93,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.",
         image: "assets/images/pokemons/7.png"
     },
@@ -100,6 +107,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Wartortle's long, furry tail is a symbol of longevity, so this Pokémon is quite popular among older people.",
         image: "assets/images/pokemons/8.png"
     },
@@ -113,6 +121,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "It deliberately increases its body weight so it can withstand the recoil of the water jets it fires.",
         image: "assets/images/pokemons/9.png"
     },
@@ -126,6 +135,7 @@ export const pokedex = [
         weackness3: "Rock",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
         image: "assets/images/pokemons/10.png"
     },
@@ -139,6 +149,7 @@ export const pokedex = [
         weackness3: "Rock",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
         image: "assets/images/pokemons/11.png"
     },
@@ -152,6 +163,7 @@ export const pokedex = [
         weackness3: "Flying",
         weackness4: "Rock",
         weackness5: "Ice",
+        weackness6: "",
         description: "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
         image: "assets/images/pokemons/12.png"
     },
@@ -165,6 +177,7 @@ export const pokedex = [
         weackness3: "Rock",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "Weedle has an extremely acute sense of smell. It is capable ofdistinguishing its favorite kinds of leaves from those it dislikesjust by sniffing with its big red proboscis (nose).",
         image: "assets/images/pokemons/13.png"
     },
@@ -178,6 +191,7 @@ export const pokedex = [
         weackness3: "Rock",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares forits coming evolution. This is evident from how hot the shellbecomes to the touch.",
         image: "assets/images/pokemons/14.png"
     },
@@ -191,6 +205,7 @@ export const pokedex = [
         weackness3: "Rock",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "Beedrill is extremely territorial. No one should ever approachits nest—this is for their own safety. If angered, they will attackin a furious swarm.",
         image: "assets/images/pokemons/15.png"
     },
@@ -204,6 +219,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Pidgey has an extremely sharp sense of direction. It is capableof unerringly returning home to its nest, however far it may beremoved from its familiar surroundings.",
         image: "assets/images/pokemons/16.png"
     },
@@ -217,6 +233,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughlypunishing the foe with its sharp claws.",
         image: "assets/images/pokemons/17.png"
     },
@@ -230,6 +247,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "This Pokémon has a dazzling plumage of beautifullyglossy feathers. Many Trainers are captivated by thestriking beauty of the feathers on its head, compellingthem to choose Pidgeot as their Pokémon.",
         image: "assets/images/pokemons/18.png"
     },
@@ -243,6 +261,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Its incisors grow continuously throughout its life. If its incisors get too long, this Pokémon becomes unable to eat, and it starves to death.",
         image: "assets/images/pokemons/19.png"
     },
@@ -256,6 +275,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
         image: "assets/images/pokemons/20.png"
     },
@@ -269,6 +289,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
         image: "assets/images/pokemons/21.png"
     },
@@ -282,6 +303,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
         image: "assets/images/pokemons/22.png"
     },
@@ -295,6 +317,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "It can freely detach its jaw to swallow large prey whole. It can become too heavy to move, however.",
         image: "assets/images/pokemons/23.png"
     },
@@ -308,6 +331,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
         image: "assets/images/pokemons/24.png"
     },
@@ -321,6 +345,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
         image: "assets/images/pokemons/25.png"
     },
@@ -334,6 +359,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
         image: "assets/images/pokemons/26.png"
     },
@@ -347,6 +373,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.",
         image: "assets/images/pokemons/27.png"
     },
@@ -360,6 +387,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about.",
         image: "assets/images/pokemons/28.png"
     },
@@ -373,6 +401,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection forthis small-bodied Pokémon. When enraged, it releasesa horrible toxin from its horn.",
         image: "assets/images/pokemons/29.png"
     },
@@ -386,6 +415,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "When Nidorina are with their friends or family, they keep theirbarbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated fromthe others.",
         image: "assets/images/pokemons/30.png"
     },
@@ -399,6 +429,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
         image: "assets/images/pokemons/31.png"
     },
@@ -412,6 +443,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Nidoran♂ has developed muscles for moving its ears. Thanksto them, the ears can be freely moved in any direction. Eventhe slightest sound does not escape this Pokémon's notice.",
         image: "assets/images/pokemons/32.png"
     },
@@ -425,6 +457,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Nidorino has a horn that is harder than a diamond. If it sensesa hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
         image: "assets/images/pokemons/33.png"
     },
@@ -438,6 +471,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
         image: "assets/images/pokemons/34.png"
     },
@@ -451,6 +485,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "On nights with a full moon, Clefairy gather from all over and dance. Bathing in moonlight makes them float.",
         image: "assets/images/pokemons/35.png"
     },
@@ -464,6 +499,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Said to live in quiet, remote mountains, this type of fairy has a strong aversion to being seen.",
         image: "assets/images/pokemons/36.png"
     },
@@ -477,6 +513,7 @@ export const pokedex = [
         weackness3: "Ground",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.",
         image: "assets/images/pokemons/37.png"
     },
@@ -490,6 +527,7 @@ export const pokedex = [
         weackness3: "Ground",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "Some legends claim that each of its nine tails has its own unique type of special mystical power.",
         image: "assets/images/pokemons/38.png"
     },
@@ -503,6 +541,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
         image: "assets/images/pokemons/39.png"
     },
@@ -516,6 +555,7 @@ export const pokedex = [
         weackness3: "",
         weackness4: "",
         weackness5: "",
+        weackness6: "",
         description: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
         image: "assets/images/pokemons/40.png"
     },
@@ -529,6 +569,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "It has no eyeballs, so it can't see. It checks its surroundings via the ultrasonic waves it emits from its mouth.",
         image: "assets/images/pokemons/41.png"
     },
@@ -542,6 +583,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "Every once in a while, you'll see a Golbat that's missing some fangs. This happens when hunger drives it to try biting a Steel-type Pokémon.",
         image: "assets/images/pokemons/42.png"
     },
@@ -555,6 +597,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
         image: "assets/images/pokemons/43.png"
     },
@@ -568,6 +611,7 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
         image: "assets/images/pokemons/44.png"
     },
@@ -581,7 +625,64 @@ export const pokedex = [
         weackness3: "Ice",
         weackness4: "Psychic",
         weackness5: "",
+        weackness6: "",
         description: "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
         image: "assets/images/pokemons/45.png"
+    },
+    {
+        id: 46,
+        name: "Paras",
+        type1: "Bug",
+        type2: "Grass",
+        weackness1: "Fire",
+        weackness2: "Bug",
+        weackness3: "Flying",
+        weackness4: "Rock",
+        weackness5: "Poison",
+        weackness6: "Ice",
+        description: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+        image: "assets/images/pokemons/46.png"
+    },
+    {
+        id: 47,
+        name: "Parasect",
+        type1: "Bug",
+        type2: "Grass",
+        weackness1: "Fire",
+        weackness2: "Bug",
+        weackness3: "Flying",
+        weackness4: "Rock",
+        weackness5: "Poison",
+        weackness6: "Ice",
+        description: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
+        image: "assets/images/pokemons/47.png"
+    },
+    {
+        id: 48,
+        name: "Venonat",
+        type1: "Bug",
+        type2: "Poison",
+        weackness1: "Fire",
+        weackness2: "Flying",
+        weackness3: "Rock",
+        weackness4: "Psychic",
+        weackness5: "",
+        weackness6: "",
+        description: "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+        image: "assets/images/pokemons/48.png"
+    },
+    {
+        id: 49,
+        name: "Venomoth",
+        type1: "Bug",
+        type2: "Poison",
+        weackness1: "Fire",
+        weackness2: "Flying",
+        weackness3: "Rock",
+        weackness4: "Psychic",
+        weackness5: "",
+        weackness6: "",
+        description: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+        image: "assets/images/pokemons/49.png"
     },
 ]
